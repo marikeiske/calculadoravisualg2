@@ -1,0 +1,31 @@
+algoritmo "calculadora"
+
+// Data : 04/10/2023
+
+var
+
+         res, num: Real
+
+
+inicio
+
+                Escreval("Digite um numero misterioso: ")
+                leia(num)
+                res <- num * 2
+                 escreval("O dobro de", num, " é:", res)
+                
+                Escreval("Digite um numero misterioso: ")
+                leia(num)
+                res <- num * 3
+                
+                escreval("O triplo de", num, " é:", res)
+                
+                Escreval("Digite um numero misterioso: ")
+                leia(num)
+                res <- num * 4
+
+                escreval("O quadruplo de", num, " é:", res)
+
+
+                
+fimalgoritmo
